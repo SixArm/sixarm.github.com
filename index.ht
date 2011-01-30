@@ -1,0 +1,184 @@
+<html>
+<head>
+<style>
+*{
+ font-family: sans-serif;
+}
+body{
+ margin: 2em;
+}
+h2{
+ padding-top: 1em;
+}
+p{
+ padding-bottom: 1em;
+}
+dl{
+}
+dt{
+ font-weight: bold;
+ padding-bottom: 0.2em;
+}
+dd{
+ padding-bottom: 0.4em;
+}
+a:link {text-decoration: none}
+a:visited {text-decoration: none}
+a:active {text-decoration: none}
+a:hover {text-decoration: underline; color: red;}
+</style>
+</head>
+<body>
+
+<h1>SixArm</h1>
+
+<b>From the SixArm.com website <a href="http://sixarm.com">http://sixarm.com</a></b>
+
+
+
+<table>
+
+<sixarm_repo_lister_title>SixArm Unix /etc files: These are for system configuration</sixarm_repo_lister_title>
+<sixarm_repo_lister_items find="*_etc_files"/>
+
+<sixarm_repo_lister_title>SixArm Unix dot files: These are for personal configuration</sixarm_repo_lister_title>
+<sixarm_repo_lister_items find="*_dot_files"/>
+
+<sixarm_repo_lister_title>SixArm Debian Packages: These are our packages for installing using dpkg, aptitude, and apt-get install.</sixarm_repo_lister_title>
+<sixarm_repo_lister_items find="*_debian_*_packages" trim="SixArm.com » Debian » "/>
+
+<sixarm_repo_lister_title>Data Spreadsheets: These are data files, including spreadsheets in tab separated value (TSV) formats.</sixarm_repo_lister_title>
+<sixarm_repo_lister_items find="*_data_*"/>
+
+<sixarm_repo_lister_title>Apache: These are for the Apache webserver.</sixarm_repo_lister_title>
+<sixarm_repo_lister_items find="*_apache*_*"/>
+
+<sixarm_repo_lister_title>MySQL: These are for the MySQL database.</sixarm_repo_lister_title>
+<sixarm_repo_lister_items find="*_mysql_*"/>
+
+<sixarm_repo_lister_title>Mutt: These are for the Mutt mail reader.</sixarm_repo_lister_title>
+<sixarm_repo_lister_items find="*_mutt_*"/>
+
+
+<tr><td colspan="2"><h2>Various</h2></td></tr>
+<tr><td><a href="http://github.com/SixArm/sixarm_emacs_notes/"             >sixarm_emacs_notes</a>           </td><td>Emacs notes on how to use the editor</td></tr>
+<tr><td><a href="http://github.com/SixArm/sixarm_monit_setup/"             >sixarm_monit_setup</a>           </td><td>Monit setup files for system monitoring scripts</td></tr>
+<tr><td><a href="http://github.com/SixArm/sixarm_mysql_scripts/"           >sixarm_mysql_scripts</a>         </td><td>MySQL scripts for database administration</td></tr>
+<tr><td><a href="http://github.com/SixArm/sixarm_ruby_gem_scripts/"        >sixarm_ruby_gem_scripts</a>      </td><td>Ruby gem scripts for building, deploying, and maintaining our ruby gems</td></tr>
+<tr><td><a href="http://github.com/SixArm/sixarm_bandwidth_speedometer/"   >sixarm_bandwidth_speedometer</a> </td><td>Bandwidth speedometer with sample test files</td></tr>
+<tr><td><a href="http://github.com/SixArm/sixarm_git_scripts/"             >sixarm_git_scripts</a>           </td><td>Git scripts for verison control</td></tr>
+<tr><td><a href="http://github.com/SixArm/sixarm_unix_shell_scripts/"      >sixarm_unix_shell_scripts</a>    </td><td>Unix shell scripts for command line programs in sh, bash, etc.</td></tr>
+<tr><td><a href="http://github.com/SixArm/sixarm_phusion_passenger/"       >sixarm_phusion_passenger</a>     </td><td>Phusion Passenger tools for Ruby and Apache</td></tr>
+</table>
+
+
+<h2>Ruby gems - our most popular</h2>
+
+<table>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_colorful/"                  >colorful</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_commander/"                 >commander</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_defining/"                  >defining</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_freebase/"                  >freebase</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_email_address_validation/"  >email address validation</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_html/"                      >html</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_math_statistics/"           >math statistics</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_ramp/"                      >sixarm_ruby_ramp</a>                  </td><td>Ramp is a toolkit of Ruby base class extensions</td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_role_based_access_control/" >restful resource controller</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_role_based_access_control/" >role based access control</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_spreadsheeting/"            >sixarm_ruby_spreadsheeting</a>        </td><td>Spreadsheeting has import &amp; export helpers for CSV, TSV, Excel, etc.</td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_unaccent/"                  >sixarm_ruby_unaccent</a>              </td><td>Unaccent replaces a string's accented characters with ASCII characters</td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_vital/"                     >vital</a></td><td></td></tr>
+</table>
+
+
+<h2>Ruby gems for core language extensions</h2>
+
+<table>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_date_age/">date age</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_hash_more/">hash more</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_hash_rolldown/">hash rolldown</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_hash_rollup/">hash rollup</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_hash_to_yaml_with_sort/">hash to yaml with sort</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_object_instance_exec/">object instance exec</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_string_to_class/">string to class</a></td><td></td></tr>
+</table>
+
+
+<h2>Ruby gems for Rails framework extensions</h2>
+
+<table>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_active_record_extensions/">active record extensions</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_date_parse_params/">date parse params</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_erb_utils_extensions/">erb utils extensions</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_migration_helper_extensions/">migration helper extensions</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_mysql_adapter_extensions/">mysql adapter extensions</a></td><td></td></tr>
+</table>
+
+
+<h2>Ruby gems for passwords</h2>
+
+<table>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_password_attribute/">sixarm_ruby_password_attribute</a>  </td><td>PasswordAttribute module to add BCrypt to an ActiveRecord model</td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_password_hash/">sixarm_ruby_password_hash</a>            </td><td>Password hash to do secure SHA256 passwords</td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_password_salt/">sixarm_ruby_password_salt</a>            </td><td>Password salt to create secure user-friendly passwords</td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_password_text/">sixarm_ruby_password_text</a>            </td><td>PasswordText class to generate good secure random passwords</td></tr>
+</table>
+
+
+<h2>Ruby gems for security</h2>
+
+<table>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_secure_random/"  >sixarm_ruby_secure_random</a>          </td><td>SecureRandom number generator for Ruby 1.8.6, backported from 1.8.7</td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_secure_token/"   >sixarm_ruby_secure_token</a>           </td><td>SecureToken class to generate a strong text string</td></tr>
+</table>
+
+
+<h2>Ruby gems for sign in and sign out</h2>
+
+<table>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_sign_in/"          >sixarm_ruby_sign_in</a>              </td><td>SignIn is a simple abstract framework</td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_sign_in_simple/"   >sixarm_ruby_sign_in_simple</a>       </td><td>SignInSimple provides typical sign out for a Rails web application</td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_sign_out/"         >sixarm_ruby_sign_out</a>             </td><td>SignOut is a simple abstract framework</td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_sign_out_simple/"  >sixarm_ruby_sign_out_simple</a>      </td><td>SignOutSimple provides typical sign out for a Rails web application</td></tr>
+</table>
+
+
+<h2>Ruby gems for Rails features</h2>
+
+<table>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_active_record_memoize_class_methods/"      >sixarm_ruby_active_record_memoize_class_methods</a>     </td><td>ActiveRecord extenstions: ActiveSupport::Memoizable for class methods </td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_active_record_memoize_instance_methods/"   >sixarm_ruby_active_record_memoize_instance_methods</a>  </td><td>ActiveRecord extenstions: ActiveSupport::Memoizable for class methods </td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_active_record_singleton/">active record singleton</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_application_controller_starter/">application controller starter</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_current_user/">current user</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_current_user_id/">current user id</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_intended_uri/">intended uri</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_person_name/">person name</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_set_locale/">set locale</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_xhr_to_xml/">xhr to xml</a></td><td></td></tr>
+</table>
+
+
+<h2>Ruby gems for Rails mock object testing</h2>
+
+<table>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_action_controller_mock/"       >sixarm_ruby_action_controller_mock</a>          </td><td>ActionController mock object for testing Rails</td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_active_record_migration_mock/" >sixarm_ruby_active_record_migration_mock</a>    </td><td>ActiveRecord migration mock object for testing Rails</td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_active_record_mock/"           >sixarm_ruby_active_record_mock</a>              </td><td>ActiveRecord mock object for testing Rails</td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_application_controller_mock/"  >sixarm_ruby_application_controller_mock</a>     </td><td>ApplicationController mock object for testing Rails</td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_i18n_mock/"                    >sixarm_ruby_i18n_mock</a>                       </td><td>I18N mock object for internationalization &amp; localization </td></tr>
+</table>
+
+
+<h2>Ruby gems for Domain Specific Language (DSL)</h2>
+
+<table>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_dsl_error/">dsl error</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_dsl_methods/">dsl methods</a></td><td></td></tr>
+<tr><td><a href="http://github.com/sixarm/sixarm_ruby_dsl_reader/">dsl reader</a></td><td></td></tr>
+</table>
+
+
+</body>
+</html>
+
